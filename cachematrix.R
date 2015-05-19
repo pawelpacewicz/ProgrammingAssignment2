@@ -16,6 +16,7 @@
 ##  - getinversion() - gets as a result 'i' - inversion of matrix 'x'
 ##  - setinversion(inversion=matrix()) assigns to matrix 'i' value of 'inversion'
 
+
 makeCacheMatrix <- function(x = matrix()) {
 
 ## initiation of inversion matrix
@@ -40,6 +41,7 @@ makeCacheMatrix <- function(x = matrix()) {
          setinversion = setinversion,
          getinversion = getinversion)        
 }
+
 
 
 ## cacheSolve(x=makeCascheMatrix(), ...)
