@@ -7,6 +7,7 @@
 
 ## Below is pair of functions that cache the result of inverse of a matrix.
 
+
 ## makeCacheMatrix(x=matrix())
 ## it creates object which includes matrix 'x' and it's inversion 'i'
 ## object have 4 methods:
